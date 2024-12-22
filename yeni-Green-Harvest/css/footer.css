@@ -1,0 +1,233 @@
+.fote-r {
+    background-color: rgba(122, 49, 69, 1);
+    height: 392px;
+    top: 4944px;
+    padding: 20px 20px 2px 20px;
+    gap: 124px;
+    background-position: center;
+    width: 1280px;
+    display: inline-block;
+}
+.container {
+    background-color: rgba(122, 49, 69, 1);
+    background-position: center;
+    display: flex;
+    width: auto;
+    margin: 0 auto;
+    padding-left: 60px;
+    border-top: none;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.span-a {
+    color: white;
+    width: 216px;
+    height: 20px;
+    gap: 0px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.yazi-i {
+    font-family: "Inter Tight";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    margin-left: auto;
+    justify-content: flex-start;
+    gap: 0px;
+    width: 265px;
+    height: 60px;
+    display: flex;
+}
+ .one-li {
+    font-family: "Inter Tight";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    margin-bottom: 16px;
+    justify-content: space-between;
+    display: flex;
+    gap: 24px;
+    font-style: normal;
+ }
+ .tel-no {
+    font-family: "Inter Tight";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration: none;
+    color: white;
+    justify-content: end;
+    font-style: normal;
+ }
+.adr-ess {
+    color: white;
+    font-family: "Inter Tight";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration: none;
+    font-style: normal;
+    padding-right: 0px;
+    width: 215px;
+    height: 40px;
+}
+.priv-acy {
+color: rgba(212, 191, 196, 1);
+}
+.green-h {
+color: rgba(212, 191, 196, 1);
+justify-content: flex-end;
+padding-right: 100px;
+}
+.green-harvest {
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.div-two {
+    display: flex;
+    justify-content: space-between;
+}
+.div-one {
+    display: flex;
+    justify-content: flex-start;
+    width: 186.67px;
+    height: 16.67px;
+    gap: 0px;
+    top: 2.22px;
+    left: 28.89px;
+    padding-top: 10px;
+}
+.one-ul {
+    list-style-type: none;
+    gap: 24px;
+    padding-left: 200px;
+}
+.two-ul {
+    list-style-type: none;
+}
+.section-second {
+    padding-bottom: 110px;
+    padding-left:0px;
+    padding-right: 60px;
+}
+.adre-s {
+    width: 215px;
+}
+@media (min-width: 768px) and (max-width: 1158px) {
+.fote-r {
+    width: 768px;
+    height: 476px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.one-ul {
+    width: 310px;
+    height: 120px;
+    gap: 24px;
+    padding-left: 80px;
+}
+.section-second {
+    width: 704px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 160px;
+}
+.container {
+    width: 704px;
+    padding-left: 5px;
+}
+.adre-s {
+    width: 735px;
+    height: 84px;
+    padding-left: 430px;
+}
+.tel-no {
+    line-height: 50px;
+    width: 163px;
+    height: 20px;
+}
+.adr-ess {
+    width: 215px;
+    height: 40px;
+}
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .fote-r {
+        width: 375px;
+        height: 584px;
+    }
+    .container {
+        width: 335px;
+        padding-left: 0px;
+    }
+    .div-one {
+        width: 168px;
+        height: 16px;
+    }
+    .div-two {
+        width: 335px;
+        height: 60px;
+    }
+    .yazi-i {
+        width: 335px;
+        line-height: 20px;
+        height: 90px;
+        padding-top: 20px;
+    }
+    .one-ul {
+        width: 227px;
+        height: 124px;
+        padding-left: 0px;
+        padding-top: 60px;
+        letter-spacing: 0.07em;
+        gap: 14px;
+    }
+    .tel-no {
+        width: 143px;
+        height: 20px;
+    }
+    .adr-ess {
+        width: 178px;
+        height: 40px;
+    }
+    .two-ul {
+        width: 215px;
+        height: 74px;
+        padding-left: 0px;
+        padding-top: 50px;
+    }
+    .section-third {
+        width: 335px;
+        height: 56px;
+        padding-top: 40px;
+    }
+    .priv-acy {
+        line-height: 50px;
+    }
+    .span-a {
+        width: 146px;
+        height: 19px;
+        font-size: 18px;
+        padding-left: 5px;
+    }
+    .adre-s {
+        width: 215px;
+        height: 74px;
+        font-size: 14px;
+        letter-spacing: 0.05em;
+    }
+}

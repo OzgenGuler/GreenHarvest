@@ -1,0 +1,145 @@
+.four-section-vegetables {
+  background-color: #7a3145;
+  display: flex;
+  flex-direction: column;
+  width: 1280px;
+height: 1232px;
+top: 1984px;
+gap: 52px;
+opacity: 0px;
+
+}
+.organic-vegetables {
+  display: flex;
+  flex-direction: column;
+  margin-right: 454px;
+  width: 626px;
+  height: 192px;
+  gap: 24px;
+  opacity: 0px;
+  margin-bottom: 52px;
+}
+
+.organic-vegetables .title-vegetables {
+  font-family: "Inter Tight";
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  /* margin-right: 118px; */
+  width: 508px;
+  height: 128px;
+}
+
+.container-organic{
+  padding: 100px;
+}
+
+.four-second {
+  color: #fbfbfb;
+}
+
+.vegetables-accent {
+  color: #d4bfc4;
+}
+
+.organic-vegetables p {
+  font-family: "Inter Tight";
+  color: #fbfbfb;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  width: 626px;
+ 
+  /* margin-top: auto; */
+  height: 40px;
+}
+
+.vegetables-item {
+  row-gap: 28px;
+}
+
+.vegetables-cards {
+  color: #7a3145;
+  font-family: "Inter Tight";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 0;
+  letter-spacing: -0.015em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 60px;
+  width: 1080px;
+  height: 788px;
+  gap: 24px;
+  margin-left: -30px;
+  margin-top: -10px;
+  column-gap: 20px;
+  row-gap: 28px;
+}
+
+.vegetables-fiyat {
+  display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  .four-section-vegetables {
+    width: 768px;
+    height: 1640px;
+
+    gap: 52px;
+    opacity: 0px;
+  }
+
+  .organic-vegetables {
+    display: flex;
+    flex-direction: column;
+
+    width: 626px;
+    height: 192px;
+    gap: 24px;
+    opacity: 0px;
+  }
+
+  .organic-vegetables .title-vegetables {
+  }
+  .vegetables-cards {
+    width: 704px;
+    gap: 24px;
+    opacity: 0px;
+    height: 380px;
+    display: inline-flex;
+
+    justify-content: space-between;
+  }
+  .vegetables-list {
+    width: 704px;
+    gap: 24px;
+    opacity: 0px;
+    height: 380px;
+    flex-wrap: wrap;
+  }
+  .four-second {
+    font-size: 64px;
+    width: 508px;
+    height: 128px;
+  }
+  .vegetables-accent {
+  }
+
+  .container-organic {
+    width: 768px;
+    height: 1640px;
+    gap: 52px;
+    opacity: 0px;
+    flex-wrap: wrap;
+  }
+  .organic-vegetables p {
+  }
+  .vegetables-item {
+  }
+  .vegetables-fiyat {
+  }
+}
