@@ -1,0 +1,369 @@
+.your-order {
+  background: rgba(87, 111, 53, 1);
+  padding: 100px;
+  gap: 52px;
+  display: flex;
+  flex-direction: column;
+  width: 1280px;
+  height: 1036px;
+}
+
+.text-fresh {
+  text-align: left;
+}
+
+.your-order .text-fresh_title {
+  font-family: "Inter Tight";
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: rgba(251, 251, 251, 1);
+  width: 751px;
+  height: 128px;
+  gap: 24px;
+}
+
+.text-fresh_title .harvest-span {
+  color: rgba(212, 191, 196, 1);
+}
+
+.text-fresh_text {
+  font-family: "Inter Tight" sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: rgba(251, 251, 251, 1);
+  width: 742px;
+  height: 40px;
+}
+
+.group-div {
+  display: flex;
+  width: 1080px;
+  height: 592px;
+  gap: 32px;
+}
+
+.form {
+  border-radius: 30px;
+  background: rgba(251, 251, 251, 1);
+  width: 524px;
+  height: 592px;
+  padding: 52px 48px 52px 48px;
+  gap: 10px;
+  border-radius: 30px;
+}
+
+.form-text {
+  font-family: "Inter Tight" sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.form-us {
+  color: rgba(122, 49, 69, 1);
+}
+
+.the-form {
+  color: rgba(87, 111, 53, 1);
+}
+
+.form-modal .input-btn {
+  width: 100%;
+  padding: 16px;
+  column-gap: 16px;
+  border-radius: 30px;
+  border: 1px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(133, 133, 133, 1);
+  color: rgba(20, 20, 20, 1);
+  margin-bottom: 16px;
+  outline: none;
+}
+
+.form-modal .input-btn p {
+  margin: 0;
+}
+
+.input-btn::placeholder {
+  color: black;
+}
+
+.input-btn:focus {
+  border-color: brown;
+}
+
+.input-btn:not(:placeholder-shown):invalid {
+  border-color: red;
+}
+
+.input-btn:not(:placeholder-shown):valid {
+  border-color: green;
+}
+
+.text-valid,
+.text-invalid {
+  font-size: 14px;
+  padding-left: 20px;
+  margin-top: 4px;
+  display: none;
+}
+
+.text-valid {
+  color: green;
+}
+
+.text-invalid {
+  color: red;
+}
+
+.input-btn:not(:placeholder-shown):valid ~ .text-valid {
+  display: block;
+}
+
+.input-btn:not(:placeholder-shown):invalid ~ .text-invalid {
+  display: block;
+}
+
+.form-modal_btn {
+  /* width: 428px;
+height:52px; */
+  padding: 16px 191px 16px 191px;
+  gap: 10px;
+  border-radius: 30px;
+  background: rgba(122, 49, 69, 1);
+  color: rgba(251, 251, 251, 1);
+  font-family: "Inter Tight" sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.form-modal_btn:hover {
+  background-color: #fbfbfb;
+  color: #7a3145;
+}
+
+.image-social {
+  background: rgba(122, 49, 69, 1);
+  width: 524px;
+
+  padding: 52px 48px 52px 48px;
+  gap: 80px;
+  border-radius: 30px;
+  text-align: left;
+}
+
+.image-social img {
+  width: 428px;
+  height: 352px;
+  border-radius: 15px;
+  margin-bottom: 80px;
+}
+
+.image-social p {
+  font-family: "Inter Tight";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgba(212, 191, 196, 1);
+  text-align: left;
+  height: 20px;
+  /* padding-top: 80px;
+  padding-bottom: 16px; */
+  display: flex;
+}
+
+.social-link {
+  gap: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Inter Tight";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  color: white;
+  list-style: none;
+  padding: 0;
+}
+
+.social-link .text-link a {
+  text-decoration: none;
+  color: white;
+}
+
+/*<!> Tablet <!>*/
+
+@media (min-width: 768px) and (max-width: 1158px) {
+  .your-order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px 100px 0px;
+    width: 768px;
+    height: 1720px;
+  }
+
+  .text-fresh {
+    width: 768px;
+    padding: 0px 96px 0px 32px;
+    column-gap: 52px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .your-order .text-fresh_title {
+    width: 640px;
+    height: 192px;
+    opacity: 0px;
+  }
+
+  .text-fresh_text {
+    width: 640px;
+    height: 60px;
+    column-gap: 52px;
+  }
+
+  .group-div {
+    width: 768px;
+    height: 1192px;
+    padding: 0px 64px 0px 64px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form {
+    width: 640px;
+    height: 632px;
+    padding: 72px 100px 72px 100px;
+    gap: 10px;
+    border-radius: 30px;
+    column-gap: 32px;
+  }
+
+  .image-social {
+    width: 640px;
+    height: 528px;
+    border-radius: 30px;
+    gap: 52px;
+  }
+
+  .image-social img {
+    width: 536px;
+    height: 316px;
+    color: #14141433;
+    margin-bottom: 52px;
+  }
+
+  .image-social p {
+    width: 243px;
+    gap: 50px;
+  }
+
+  .social-link .text-link {
+    width: 81px;
+    height: 20px;
+  }
+}
+
+/*<!> Mobil <!>*/
+
+@media (max-width: 767px) {
+  .your-order {
+    padding: 0px 20px 0px 20px;
+    width: 375px;
+    height: 1536px;
+    gap: 40px;
+  }
+
+  .text-fresh {
+    width: 335px;
+    column-gap: 40px;
+    display: block;
+  }
+
+  .your-order .text-fresh_title {
+    width: 335px;
+    height: 208px;
+    line-height: 52px;
+    font-size: 48px;
+    display: block;
+  }
+
+  .text-fresh_text {
+    font-size: 14px;
+    column-gap: 40px;
+    width: 335px;
+    height: 80;
+    display: block;
+    line-height: 20px;
+  }
+
+  .group-div {
+    width: 335px;
+    height: 1028px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px 40px 0px;
+  }
+
+  .form {
+    width: 335px;
+    height: 552px;
+    padding: 40px 20px 40px 20px;
+  }
+
+  .form-text {
+    font-size: 28px;
+    width: 295px;
+    height: 140px;
+    column-gap: 40px;
+    line-height: 28px;
+  }
+
+  .form-modal_btn {
+    width: 295px;
+    padding: 16px 129px 16px 129px;
+    gap: 10px;
+  }
+
+  .image-social {
+    width: 335px;
+    padding: 40px 20px 20px 20px;
+    height: 456;
+  }
+
+  .image-social img {
+    width: 295px;
+    height: 272px;
+    margin-bottom: 20px;
+  }
+
+  .image-social p {
+    width: 213px;
+    height: 20;
+    line-height: 20px;
+    font-size: 14px;
+  }
+
+  .social-link .text-link {
+    width: 100px;
+    height: 20px;
+  }
+}
+
+/* The End :) */
